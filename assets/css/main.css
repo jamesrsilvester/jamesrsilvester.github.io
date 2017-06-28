@@ -17,6 +17,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.bothcolumns {
+  position: fixed;
+  left:50px;
+  width: 1000px;
+  height: 500px;
+  display: inline-block;
+  border: 3px solid blue;
+  float:left;
+}
+
+.column1  {
+  margin-left: 3%;
+  width: 45%;
+  height: 100%;
+  display: block;
+  float:left;
+  border: 3px solid pink;
+}
+
+.column2  {
+  margin-left:3%;
+  width: 45%;
+  height: 100%;
+  display: block;
+  float:left;
+  border: 3px solid green;
+}
+
 a {
   text-decoration: none;
   color: black;
