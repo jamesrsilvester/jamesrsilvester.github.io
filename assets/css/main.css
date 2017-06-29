@@ -18,24 +18,25 @@ body {
 
 .sidebar {
   width: 200px;
-  height: 500px;
-  padding-left: 10px;
+  height: 400px;
+  padding-left: 5px;
+  padding-right: 7px;
   float:left;
   display: block;
   text-align: center;
-  
+
   background-image:
       linear-gradient(transparent, gray, transparent),
       linear-gradient(transparent, gray, transparent)
   ;
   background-size:1px 100%;
-  background-position:100% 0, 0 0;
+  background-position:0 0, 100% 0;
   background-repeat:no-repeat;
 
 }
 
 #name {
-  margin-top: 100px;
+  margin-top: 50px;
   display:block;
   text-align: center;
 }
