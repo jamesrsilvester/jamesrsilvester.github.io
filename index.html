@@ -16,34 +16,67 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 
 <body>
   <div id="page-wrapper">
-    <header>
+    <header class="toggleable">
 
     </header>
-  <div class = "sidebar">
-    <img id="logo" src="assets/imgs/logoTest.png">
-    <h2 id="name">James Silvester</h2>
-  </div>
-    <div class= "bothcolumns">
-      <div class= "column1">
-        <h3>Work</h3>
-        <h4>Projects Go Here...</h4>
+    <div class="sidebar toggleable">
+      <img id="logo" src="https://lh3.googleusercontent.com/9QKwWUCEo6bWj5WxyPiXXkn-_HVBHSlc6yLN-l9Zub6Mh5c1Vyst5IHjyTNqIShIv-RW5I7RZ_5lVG0=w1920-h916">
+      <h2 id="name">James Silvester</h2>
+      <p>
+        Web Developer,
+        <br /> Product Marketer
+      </p>
+      <div class="sociallinks toggleable">
+        <img class="social" src="http://www.iconninja.com/files/902/874/330/black-linkedin-icon.png">
+        <img class="social" src="https://image.flaticon.com/icons/svg/23/23957.svg">
+        <img class="social" src="https://image.flaticon.com/icons/png/512/8/8800.png">
+      </div>
+    </div>
+    <div class="bothcolumns toggleable">
+      <div class="column1 toggleable">
+        <h3>Recent Projects</h3>
+        <ul>
+          <li><a href="#">Link</a> to Repository 1</li>
+          <li><a href="#">Link</a> to Repository 2</li>
+          <li><a href="#">Link</a> to Repository 3</li>
+        </ul>
+        <h3>Writing</h3>
         <ul>
           <li><a href="#">Link</a> to Repository 1</li>
           <li><a href="#">Link</a> to Repository 2</li>
           <li><a href="#">Link</a> to Repository 3</li>
         </ul>
       </div>
-      <div class=column2>
-        <h3>Contact</h3>
+      <div class="column2 toggleable">
+        <h3>Photography</h3>
+        <ul>
+          <li><a href="#">Link</a> to Repository 1</li>
+          <li><a href="#">Link</a> to Repository 2</li>
+          <li><a href="#">Link</a> to Repository 3</li>
+        </ul>
+        <h3>Travel</h3>
+        <ul>
+          <li><a href="#">Thailand</a></li>
+          <li><a href="#">Japan</a></li>
+          <li><a href="#">Cozumel</a></li>
+        </ul>
+        <h3>Get in Touch:</h3>
+        <ul>
+          <li><a href="#">jamesrsilvester@gmail.com</a></li>
+          <li><a href="#">917 596 5245</a></li>
+        </ul>
       </div>
     </div>
+    <footer class="toggleable">
+      <button class = "clickable" >Developer Mode</button>
+    </footer>
   </div>
 </body>
-
-</html>
