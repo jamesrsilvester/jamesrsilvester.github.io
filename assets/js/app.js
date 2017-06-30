@@ -4,7 +4,7 @@ console.log("linked.");
 // A $( document ).ready() block.
 $(document).ready(function() {
     console.log(" and ready!");
-    toggler();
+    // toggler();
     $('.clickable').click(toggler)
 });
 //set toggler as add class notBordered

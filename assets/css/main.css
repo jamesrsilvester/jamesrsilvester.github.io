@@ -14,7 +14,7 @@ header {
 
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   color: #423F37;
   font-weight: 200;
   margin:0;
@@ -26,6 +26,7 @@ h3 {
 h3:hover {
   font-family: 'Roboto', sans-serif;
   color: black;
+  font-size: 20px;
   text-shadow: black;
   font-weight: 900;
 }
@@ -44,7 +45,7 @@ body {
   width: 200px;
   height: 600px;
   padding-left: 75px;
-  padding-right: 75px;
+  padding-right: 40px;
   margin-left: 0px;
   margin-top: 0px;
   float: left;
@@ -64,7 +65,7 @@ body {
 
 #logo {
   width: 75%;
-  margin-top: 65%;
+  margin-top: 62%;
 }
 
 #name {
@@ -87,11 +88,10 @@ body {
 
 /*contains both columns*/
 .bothcolumns {
-  left: 205px;
-  width: 500px;
+  width: 450px;
   height: 340px;
-  margin-left: 80px;
-  margin-top: 130px;
+  margin-left: 50px;
+  margin-top: 120px;
   border-left: none;
   display: inline-block;
   border: 2px dashed yellow;
@@ -126,6 +126,7 @@ ul {
 
 a {
   text-decoration: none;
+  font-size: 14px;
   color: #423F37;
 }
 
