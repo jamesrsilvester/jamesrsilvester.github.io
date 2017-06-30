@@ -1,4 +1,8 @@
-/* custom styles */
+
+/*overall page stying*/
+::selection {
+  background: #FADE0E;
+}
 
 header {
   width: 100%;
@@ -6,6 +10,24 @@ header {
   display: inline-block;
   margin: 0px;
   border: 2px dashed pink;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #423F37;
+  font-weight: 200;
+  margin:0;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding:0;
+}
+
+h3:hover {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-shadow: black;
+  font-weight: 900;
 }
 
 p {
@@ -18,25 +40,11 @@ body {
   color: #423F37;
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #423F37;
-  font-weight: 900;
-  font-size:
-}
-
-h3:hover {
-  font-family: 'Roboto', sans-serif;
-  color: black;
-  text-shadow: black;
-  font-weight: 900;
-}
-
 .sidebar {
   width: 200px;
   height: 600px;
   padding-left: 55px;
-  padding-right: 30px;
+  padding-right: 75px;
   margin-left: 0px;
   margin-top: 0px;
   float: left;
@@ -49,8 +57,9 @@ h3:hover {
   background-repeat: no-repeat;
 }
 
-.notBordered {
-  border: none !important;
+/*removes default border style*/
+.not-bordered {
+  border: 2px solid rgba(0,0,0,0) !important;
 }
 
 #logo {
@@ -64,6 +73,7 @@ h3:hover {
   text-align: center;
 }
 
+/*contains social icons*/
 .social {
   height: 30px;
   width: auto;
@@ -75,33 +85,36 @@ h3:hover {
   opacity: 1;
 }
 
+/*contains both columns*/
 .bothcolumns {
   left: 205px;
-  width: 600px;
-  height: 500px;
-  display: block;
-  margin-left: 115px;
-  margin-top: 50px;
+  width: 500px;
+  height: 340px;
+  margin-left: 80px;
+  margin-top: 117px;
   border-left: none;
-  float: left;
+  display: inline-block;
   border: 2px dashed yellow;
 }
 
+.column1 .column2 {
+  width:20%;
+}
+
 .column1 {
-  margin-left: 3%;
-  width: 45%;
+  margin-left: 2%;
+  margin-right: 5%;
   height: 100%;
-  display: block;
+  display: inline-block;
   float: left;
   border: 2px dashed red;
 }
 
 .column2 {
-  margin-left: 3%;
-  width: 45%;
+margin-right: 2%;
   height: 100%;
-  display: block;
-  float: left;
+  display: inline-block;
+  float: right;
   border: 2px dashed purple;
 }
 
@@ -133,4 +146,10 @@ footer {
 
 button {
   margin-top: 5%;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
