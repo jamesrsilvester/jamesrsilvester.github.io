@@ -142,13 +142,14 @@ footer {
   bottom: 0px;
   display: inline-block;
   float: right;
-  text-align: center;
 }
 
 button {
     margin-top: 5px;
+    margin-left: 320px;
     background-color: white;
     color: gray;
+    border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
