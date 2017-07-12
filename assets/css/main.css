@@ -26,7 +26,7 @@ h3 {
 h3:hover {
   font-family: 'Roboto', sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 19px;
   text-shadow: black;
   font-weight: 900;
 }
@@ -131,7 +131,8 @@ a {
 }
 
 a:hover {
-  color: #F3B817;
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 
 footer {
@@ -144,6 +145,7 @@ footer {
   float: right;
 }
 
+/*enable dev mode button
 button {
     margin-top: 5px;
     margin-left: 375px;
@@ -154,4 +156,4 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
+}*/
