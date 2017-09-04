@@ -130,10 +130,6 @@ a {
   color: #423F37;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 footer {
   height: 50px;
   width: 100%;
