@@ -1,7 +1,12 @@
 
 /*overall page stying*/
 ::selection {
-  background: #FADE0E;
+  background: #8EFDB2;
+  background-color: rgba(142, 253, 178, 0.7);
+}
+
+.cursor {
+  cursor:  url(../imgs/cursor_sm.png) 0 34,auto;
 }
 
 header {
