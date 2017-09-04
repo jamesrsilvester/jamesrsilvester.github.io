@@ -132,7 +132,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-  text-decoration-style: dashed;
 }
 
 footer {
@@ -144,16 +143,3 @@ footer {
   display: inline-block;
   float: right;
 }
-
-/*enable dev mode button
-button {
-    margin-top: 5px;
-    margin-left: 375px;
-    background-color: white;
-    color: gray;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}*/
