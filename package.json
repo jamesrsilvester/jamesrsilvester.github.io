@@ -1,0 +1,6 @@
+{
+  "name": "jamesrsilvester.github.io",
+  "scripts": {
+    "serve": "python -m SimpleHTTPServer"
+  }
+}
