@@ -1,1 +1,3 @@
-James's Personal Site, avaliable at jamesrsilvester.com
+James's Personal Site, live at jamesrsilvester.com.
+
+
