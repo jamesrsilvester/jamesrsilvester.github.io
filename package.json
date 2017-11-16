@@ -2,5 +2,8 @@
   "name": "jamesrsilvester.github.io",
   "scripts": {
     "serve": "python -m SimpleHTTPServer"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
